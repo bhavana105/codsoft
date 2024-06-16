@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./images/Black\ Abstract\ Linktree\ Background.png");
+    background-position: center;
+    background-size: cover;
+  height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    margin: auto;
+    width: 86%;
+}
+.logo{
+    height:150px;
+    width: 250px;
+    margin-top: -2%;
+    margin-left: -2%;
+    border-radius: 50%;
+    background-color: rgb(250, 229, 215);
+}
+ul{
+    margin-top: -4%;
+}
+ul  li {
+    list-style: none;
+    display: inline-block; 
+    padding: 10px 16px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-top: -3px;
+    font-weight: bold;
+}
+a:hover{
+color: blue;
+transition: 5ms ease;
+}
+.image , .info {
+    position: absolute;
+}
+    .info{
+        height:50%;
+        left: 180px;
+        bottom:  25%;
+    }
+   
+.image{
+    width: 60%;
+    height:100%;
+    right: -70px;
+    bottom:  -140px;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    right: 15px;
+    bottom: 0;
+}
+h2 ,h1,h3{
+    letter-spacing: 2px;
+    line-height: 70px;
+}
+p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+span{
+    color: rgb(252, 78, 15);
+}
+ #skills, #projects , #contact{
+    position: absolute;
+    height:50%;
+    left: 180px;
+}
+#skills{
+ top:  60%;
+}
+#projects{
+    bottom:  -30%;
+}
+#contact{
+    bottom:  -70%;
+}
+h3{
+    color: rgb(246, 121, 32);
+    font-size: 27px;
+}
+button{
+    padding: 10px;
+    margin: 20px ;
+    background-color: rgb(236, 138, 69);
+}
+.fa-circle{
+    letter-spacing: 2px;
+    line-height: 10%;
+}
+
+footer{
+    position: absolute;
+    height:50%;
+    left: 180px;
+    bottom:  -90%;
+}
+.fa-brands{
+font-size: larger;
+}
