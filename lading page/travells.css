@@ -1,9 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-
 header{
     background-color:rgb(41, 238, 169) ;
     height: 100px;
@@ -40,7 +40,7 @@ ul {
     width: 900px;
     margin: 15px 15px 15px 0px;
 }
-.pos{
+ .pos{
  position: absolute;
  right: 6%;
  top: 35%;
@@ -61,7 +61,6 @@ button{
 h2{
     color: rgba(249, 70, 16, 0.915);
     margin: 5px 5px 10px 10px;
-
 }
 span{
     color: rgb(194, 73, 73);
@@ -75,7 +74,6 @@ span{
     display: flex;
     justify-content:space-evenly;
 }
-
 .font{
     font-size: 20px;
     padding: 3px;
@@ -88,7 +86,6 @@ footer {
     background-color: rgb(159, 171, 175);
     text-align: center;
 }
-
 .con {
     margin: 20px;
     text-align: center;
@@ -106,15 +103,5 @@ input{
     margin: 5px;
     } 
     
-    
-
- 
-   
-   
-    
-    
-   
   
-    
-    
-    
+      
